@@ -7,6 +7,9 @@ public class Barb extends Grandma {
 
     @Override
     public boolean likesWord(String str) {
+        if(str.length()==0){
+            return false;
+        }
         if(str.charAt(0)==str.charAt(str.length()-1)){
             return true;
         }

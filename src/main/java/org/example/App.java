@@ -26,7 +26,7 @@ public class App {
             e.printStackTrace();
         }
         Scanner scanner = new Scanner(System.in);
-        Grandma grandma = new Barb();
+        Grandma grandma = new Ellwood();
         System.out.println("I'm grandma " + grandma.getName());
         System.out.println("Enter a word");
         String word = scanner.nextLine();
